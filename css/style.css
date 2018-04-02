@@ -5,7 +5,7 @@ html, body{
 }
 
 section {
-	padding: 2em;
+	padding: 4em 2em;
 	display: flex;
 	align-items: center;
 }
@@ -45,7 +45,6 @@ hr {
 
 #author, #contact {
 	background-color: #F4F4F4;
-	padding: 2em 4em;
 }
 
 #joe-pic {
