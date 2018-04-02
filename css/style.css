@@ -43,7 +43,7 @@ hr {
     background-color: #A43434;
 }
 
-#author {
+#author, #contact {
 	background-color: #F4F4F4;
 	padding: 2em 4em;
 }
@@ -71,3 +71,8 @@ hr {
 #buy {
   background-color: #FFFFFF;
 }
+
+form > .row {
+  margin-left, margin-right: 0;
+}
+
