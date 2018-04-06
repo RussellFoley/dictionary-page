@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="ga">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<title>Welsh-Irish Dictionary</title>
+	<title>Foclóir Breatnais-Gaeilge</title>
 	<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 	<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
-  <!--<a class="navbar-brand" href="#">Navbar</a>-->
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -20,24 +19,24 @@
 
     <span class="nav-item dropdown">
         <button type="button" class="btn dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Language
+          Teanga
         </button>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Welsh</a>
-          <a class="dropdown-item" href="#">Irish</a>
-          <a class="dropdown-item" href="#">English</a>
+          <a class="dropdown-item" href="cy.php">Cymraeg</a>
+          <a class="dropdown-item" href="ga.php">Gaeilge</a>
+          <a class="dropdown-item" href="en.php">English</a>
         </div>
       </span>
 
       <ul class="navbar-nav ml-auto pull-right">
       <li class="nav-item">
-        <a class="nav-link" href="#top">Home</a>
+        <a class="nav-link" href="#top">Baile</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#author">Author</a>
+        <a class="nav-link" href="#author">Scribhneoir</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#buy">Purchase</a>
+        <a class="nav-link" href="#buy">Ceannach</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#contact">Contact</a>
@@ -52,37 +51,36 @@
 				<img class="dictpic img-fluid" src="dictionary.png" />
 			</div>
 			<div class="col-md">
-				<h1>Welsh-Irish Dictionary</h1>
+				<h1>Foclóir Breatnais-Gaeilge</h1>
 				<hr />
-				<p class="p-1">The fruit of 30 years of study, Joseph Mitchell's <i>Geiriadur Cymraeg-Gwyddelig</i> is the first of its kind.</p>
-				<p class="p-1">It presents a wealth of vocabulary, expression and grammar with a broad scope and wide range of sources, both colloquial and literary.</p>
-				<p class="p-1">The dictionary is an ideal study aid for Welsh speaking students of Irish, whether in school, university or learning independently. It will also be of use to Irish speakers learning Welsh.</p>
-				<p class="p-1">This work represents a precise study of word and phrase in context, is compiled clearly and well annotated. Dr Diarmuid Johnson worked as consultative editor for the project.</p>			<a class="btn btn-primary buy-button p-1" href="#" role="button">Buy Now</a>
+				<p class="p-1">Tar éis 30 bliain, seo toradh na hoibre as staidéir Joe Mitchell i <i>Foclóir Breatnais-Gaeilge</i>, an chéad leabhar dá short</p>
+				<p class="p-1">Bailiúchán mór focal, frásaí agus gramadach atá ann, le réimse leathan as foinsí éagsúla idir chaighdeánach agus chanúnach.</p>
+				<p class="p-1">Is áis iontach é seo don Bhreatnach atá ag foghlaim Gaeilge sa scoil, sa colaiste no as a stuaim fhéin. Ba bhreá é mar chabhair ar an nGael atá ag foghlaim na Breatnaise freisin</p>
+				<p class="p-1">Seasann an obair seo mar staidéar chruinn ar úsaíd focal agus frásaí. Tá sé leagtha amach go soiléir le noda úsáideacha. Bhí lámh ag an Dr Diarmuid Johnson leis mar eagarthóír comhairleach.</p>			<a class="btn btn-primary buy-button p-1" href="https://www.abebooks.co.uk/servlet/SearchResults?bi=0&ds=30&isbn=0995760608&sortby=17&sts=t&vci=633805" role="button">Ceannach anois</a>
 			</div>
 		</section>
 
 
 		<section id="features" class="row">
 			<div class="col-md feature">
-				<h3>Comprehensive</h3>
-				<p>A complete and up-to-date vocabulary with over 12,000 headwords.</p>
+				<h3>Fairsing</h3>
+				<p>Foclóir cuimsitheach de theanga ár linne agus breis ar 12,000 ceannfhocal</p>
 			</div>
 			<div class="col-md feature">
-				<h3>Precise</h3>
-				<p>Annotated translations for different ranges of meaning and examples of usage to clarify words in context.</p>
+				<h3>Beacht</h3>
+				<p>Aistriúcháin le notaí le haghaidh gach réimse ciall éagsúil, agus samplaí den úsáid chun soiléiriú a thabhairt ar an gcomhthéacs.</p>
 
 			</div>
 			<div class="col-md feature">
-				<h3>Grammar Guide</h3>
-				<p>A guide to Welsh mutation written in Irish and an extensive Irish grammar in Welsh.</p>
+				<h3>Treoir Gramadaí</h3>
+				<p>Treoir as nGaeilge ar arthuithe na dtúslitreacha sa gCymraeg agus treoir as Breatnais ar ghramadach na Gaeilge.</p>
 			</div>
 		</section>
 
 		<section class="row" id="author">
 			<div class="col-md">
-				<h2>About the author</h2>
-				<p>Born in Carmarthen and raised in Abererch and North Cardiff, Joe Mitchell first learned Irish in Cardiff with Barry Tobin. He graduated with an MA in Irish at Aberystwyth 
-				University in 2005 under Prof. Sims-Williams, Dr. Will Mahon, Dr. Diarmuid Johnson and Dr. Ian Hughes. His translations of Irish texts include short stories and essays by Martín Ó Cadhain.</p>
+				<h2>Faoin scribhneoir</h2>
+				<p>Rugadh Joe i gCaerfyrddin sa Bhreatain Bheag agus tógadh é in Abererch agus Tuascairt Caerdydd. D’fhoghlaim sé a chuid Gaeilge i gCerdydd le Barra Tóibín. Fuair sé céim máistreachta sa Ghaeilge in Aberystwyth le Dr. Wil Mahon, Dr. Diarmuid Johnson agus Dr. Ian Hughes. Tá roinnt gearrscéalta de chuid Mhartín Uí Chadhain aistrithe go Breatnais aige.</p>
 			</div>
 			<div class="col-md text-center">
 				<figure class="figure">
@@ -94,10 +92,10 @@
 
 		<section id="buy" class="row text-center">
 			<div class="col">
-				<h2>Purchase</h2>
-				<p>The Welsh-Irish Dictionary is sold on the ABE page of our sponsor, Ystwyth Books.</p>
+				<h2>Ceannach</h2>
+				<p>Tá an Foclóir Breatnais-Gaeilge le fáil ó Martin's Books ar ABE Books.</p>
 				<img id="bottom-pic" class="dictpic img-fluid" src="dictionary.png" />
-				<a id="buy-button-bottom" class="btn btn-primary buy-button" href="#" role="button">Buy Now</a>
+				<a id="buy-button-bottom" class="btn btn-primary buy-button" href="https://www.abebooks.co.uk/servlet/SearchResults?bi=0&ds=30&isbn=0995760608&sortby=17&sts=t&vci=633805" role="button">Ceannach anois</a>
 			</div>
 		</section>
 

@@ -1,7 +1,7 @@
 <?php
 if (isset($_POST['email']))
 {
-	$to = "russell.foley@hotmail.co.uk";
+	$to = "joejohnmitch@gmail.com";
 	$subject = "New message from geiriadurgwyddeleg.com";
 
 	function died($error)
@@ -38,8 +38,7 @@ if (isset($_POST['email']))
 		$error_message .= "Invalid first name.<br />";
 	}
 
-	if(!preg_match($string_exp, $last_name
-	))
+	if(!preg_match($string_exp, $last_name))
 	{
 		$error_message .= "Invalid last name.<br />";
 	}
@@ -47,11 +46,17 @@ if (isset($_POST['email']))
 	if(strlen($message) < 2) {
 		$error_message .= "Message is too short.<br />";
 	}
+	
+	if($human != 5)
+	{
+		$error_message .= "Wrong answer for human test sum.<br />";
+	}
 
 	if(strlen($error_message) > 0)
 	{
 		died($error_message);
 	}
+
 
 	$email_message = "Form details below. \n\n";
 
