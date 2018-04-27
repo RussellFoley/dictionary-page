@@ -48,7 +48,7 @@
 	<div class="container-fluid">
 		<section id="top" class="row">
 			<div class="col-md">
-				<img class="dictpic img-fluid" src="dictionary.png" />
+				<img class="dictpic img-fluid" src="dictionary.png" alt="Welsh-Irish Dictionary"/>
 			</div>
 			<div class="col-md">
 				<h1>Welsh-Irish Dictionary</h1>
@@ -104,20 +104,22 @@
 			<div class="col-md-6 offset-md-3">  	
 				<h2>Contact</h2>
 				<p>For any queries please use the form below.</p>
-				<form action="mail.php" method="post">
+				<div id="form-messages"></div>
+				<form id="ajax-contact" action="mailer.php" method="post">
+					<input type="hidden" name="lang" value="en">
 					<div class="form-row">
 					<div class="form-group col-md-6">
 						<label for="first-name">First Name</label>
-						<input type="text" class="form-control" id="first-name" name="firstname">
+						<input type="text" class="form-control" id="first-name" name="first-name" required>
 					</div>
 					<div class="form-group col-md-6">
 						<label for="last-name">Last Name</label>
-						<input type="text" class="form-control" id="last-name" name="lastname">
+						<input type="text" class="form-control" id="last-name" name="last-name" required>
 					</div>
 				</div>
 					<div class="form-group">
 						<label for="formGroupExampleInput2">E-mail</label>
-						<input type="text" class="form-control" id="email" name="email">
+						<input type="email" class="form-control" id="email" name="email" required>
 					</div>
 					<div class="form-group">
 						<label for="formGroupExampleInput">Message</label>
@@ -126,7 +128,7 @@
 					<div class="form-group row">
 						<label class="col-auto col-form-label" for="human">2 + 3 = </label>
 						<div class="col-xs-3">
-							<input type="text" class="form-control" id="human" name="human">
+							<input type="text" class="form-control" id="human" name="human" required>
 						</div>
 					</div>
 					<button type="submit" class="btn btn-primary">Submit</button>
@@ -136,10 +138,7 @@
 		</section>
 	</div><!-- container -->
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<?php require 'scripts.php'; ?>
 </body>
 
 </html>

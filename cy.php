@@ -39,7 +39,7 @@
         <a class="nav-link" href="#buy">Prynu</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
+        <a class="nav-link" href="#contact">Cysylltu</a>
       </li>
     	</ul>
       </div>
@@ -48,7 +48,7 @@
 	<div class="container-fluid">
 		<section id="top" class="row">
 			<div class="col-md">
-				<img class="dictpic img-fluid" src="dictionary.png" />
+				<img class="dictpic img-fluid" src="dictionary.png" alt="Geiriadur Cymraeg-Gwyddeleg" />
 			</div>
 			<div class="col-md">
 				<h1>Geiriadur Cymraeg-Gwyddeleg</h1>
@@ -102,25 +102,27 @@
 
 		<section id="contact" class="row">
 			<div class="col-md-6 offset-md-3">  	
-				<h2>Contact</h2>
-				<p>For any queries please use the form below.</p>
-				<form action="mail.php" method="post">
+				<h2>Cysylltu</h2>
+				<p>Defnyddiwch y ffurflen isod ar gyfer ymholiadau.</p>
+				<div id="form-messages"></div>
+				<form id="ajax-contact" action="mailer.php" method="post">
+					<input type="hidden" name="lang" value="cy">
 					<div class="form-row">
 					<div class="form-group col-md-6">
-						<label for="first-name">First Name</label>
-						<input type="text" class="form-control" id="first-name" name="firstname">
+						<label for="first-name">Enw cyntaf</label>
+						<input type="text" class="form-control" id="first-name" name="first-name">
 					</div>
 					<div class="form-group col-md-6">
-						<label for="last-name">Last Name</label>
-						<input type="text" class="form-control" id="last-name" name="lastname">
+						<label for="last-name">Enw olaf</label>
+						<input type="text" class="form-control" id="last-name" name="last-name">
 					</div>
 				</div>
 					<div class="form-group">
-						<label for="formGroupExampleInput2">E-mail</label>
+						<label for="formGroupExampleInput2">E-bost</label>
 						<input type="text" class="form-control" id="email" name="email">
 					</div>
 					<div class="form-group">
-						<label for="formGroupExampleInput">Message</label>
+						<label for="formGroupExampleInput">Neges</label>
 						<textarea rows="4" class="form-control" id="message" name="message"></textarea>
 					</div>
 					<div class="form-group row">
@@ -129,17 +131,14 @@
 							<input type="text" class="form-control" id="human" name="human">
 						</div>
 					</div>
-					<button type="submit" class="btn btn-primary">Submit</button>
+					<button type="submit" class="btn btn-primary">Gyrru</button>
 				</form>
 			</div>
 
 		</section>
 	</div><!-- container -->
 
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<?php require 'scripts.php'; ?>
 </body>
 
 </html>
